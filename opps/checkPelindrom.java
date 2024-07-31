@@ -12,8 +12,6 @@ public class checkPelindrom {
        System.out.println(pi1.check(arr));
 
     }
-
-
     
 }
 class Pelindrome{

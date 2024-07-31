@@ -20,8 +20,7 @@ public class Frequency {
         }
        // System.out.println(hm);
        Set<Integer>keySet=hm.keySet();
-       
-       for (Integer k : keySet){
+        for (Integer k : keySet){
         if(hm.get(k)>arr.length/3){
             System.out.println("key-"+k+" value-"+hm.get(k));// k=element(key) and hm.get(k)==value
         }

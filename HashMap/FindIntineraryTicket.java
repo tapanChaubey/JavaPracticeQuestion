@@ -8,6 +8,7 @@ public class FindIntineraryTicket {
         }
         for(String k: hm.keySet()){
             if(!revHM.containsKey(k)){
+                System.out.println(hm.get(k));
                 return k;
             }
         }

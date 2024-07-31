@@ -28,6 +28,7 @@ public class febonaci {
         
         int a=feb(n);
         System.out.println(a);
+    
     }
     
 }
