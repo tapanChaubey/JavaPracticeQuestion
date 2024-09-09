@@ -1,6 +1,6 @@
 package opps.Interfaces;
 import java.util.*;
-public class implementInterface {
+public class implementInterface2 {
     public static void main(String [] args){
         rectangle rect=new rectangle();
         circle cir=new circle();
