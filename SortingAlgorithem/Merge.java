@@ -20,15 +20,11 @@ public class Merge {
     while(j<=ei){
         temp[k++]=arr[j++];
     }
-
     int p=si;
     for(int r=0; r<temp.length;r++){
         arr[p++]=temp[r];
     }
-
-
 }
-   
 static void mergeSort(int arr[],int si,int ei){
      if(si>=ei){
         return;

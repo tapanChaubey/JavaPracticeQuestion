@@ -53,7 +53,7 @@ public void remove(int idx){
         Heep pq=new Heep();
         for(int i=1; i<=n; i++){
             int x=sc.nextInt();
-            pq.add(x);
+             pq.add(x);
         }
         System.out.println(pq.arr);
         int k=sc.nextInt();

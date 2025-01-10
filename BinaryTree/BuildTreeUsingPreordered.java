@@ -47,7 +47,7 @@ public class BuildTreeUsingPreordered {
         for(int i=0; i<n; i++){
             arr[i]=sc.nextInt();
         }
-        BinaryTree tree=new BinaryTree();
+      BinaryTree tree=new BinaryTree();
       Node root=tree.buildTree(arr);
       tree.display(root);
 
