@@ -12,7 +12,7 @@ public class first1 {
          arr[idx]=idx+1;
         insert(arr, n, idx+1);
         arr[idx]-=2;
-        
+
     }
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
